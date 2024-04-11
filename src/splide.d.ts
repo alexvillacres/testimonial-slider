@@ -1,11 +1,14 @@
 declare module 'splide' {
   interface SplideOptions {
     arrows: boolean;
+    arrowPath: string;
     type: 'loop';
     gap: string;
     autoplay?: boolean | 'pause';
     interval: number;
     pagination: boolean;
+    perPage: number;
+    perMove: number;
     pauseOnHover: boolean;
     intersection?: SplideIntersectionOptions;
   }
